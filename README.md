@@ -11,7 +11,7 @@ During this internship, I independently developed the core design methodology, h
 The publication above reproduces substantial portions of my original 2023 internship work, including the algorithmic concept, hardware architecture, and implementation results.  
 I was **not informed, consulted, or acknowledged** prior to its submission or publication.
 
-This repository serves to **document and preserve the original research records**—including design notes, synthesis scripts, and implementation data—created during my 2023 internship at Polytechnique Montréal.  
+This repository serves to **document and preserve the original research records**, including design notes, synthesis scripts, and implementation data, created during my 2023 internship at Polytechnique Montréal.  
 All commits and timestamps are publicly verifiable to establish the authenticity and timeline of my contributions.
 
 # Matrix-Multiplication-Optimization-for-LUT-Usage-on-FPGA
