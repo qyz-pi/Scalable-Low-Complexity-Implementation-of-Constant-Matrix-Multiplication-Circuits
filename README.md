@@ -1,3 +1,19 @@
+# Statement on Research Misappropriation
+
+Between **February and June 2023**, I conducted research as a **Research Intern** at *Polytechnique Montréal*, working closely with **[Prof. Jean Pierre David](https://www.polymtl.ca/expertises/en/david-jean-pierre)** (Full Professor, Department of Electrical Engineering).  
+
+During this internship, I independently developed the core design methodology, hardware implementation framework, and experimental results that were later published **without my knowledge, consent, or authorship** in the following paper:
+
+> **Scalable Low-Complexity Implementation of Constant Matrix Multiplication Circuits**  
+> *Aymen-Alaeddine Zeghaida, Dinesh Daultani, J.-M. Pierre Langlois, Jean Pierre David*  
+> *2024 IEEE 67th International Midwest Symposium on Circuits and Systems (MWSCAS), pp. 357–361, IEEE, Aug. 11, 2024.*
+
+The publication above reproduces substantial portions of my original 2023 internship work, including the algorithmic concept, hardware architecture, and implementation results.  
+I was **not informed, consulted, or acknowledged** prior to its submission or publication.
+
+This repository serves to **document and preserve the original research records**—including design notes, synthesis scripts, and implementation data—created during my 2023 internship at Polytechnique Montréal.  
+All commits and timestamps are publicly verifiable to establish the authenticity and timeline of my contributions.
+
 # Matrix-Multiplication-Optimization-for-LUT-Usage-on-FPGA
 
 The Methodology section offers an in-depth exposition of the principles and design strategies pertaining to all the algorithms and functionalities implemented. The Results and Discussion section elucidates the analysis and discourse on the outcomes of the comparative experiments. The Explanation for Uploaded Files section provides insights on how to comprehend and utilize the files uploaded.
