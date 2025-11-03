@@ -1,18 +1,3 @@
-# Statement on Research Misappropriation
-
-Between **February and June 2023**, I conducted research as a **Research Intern** at *Polytechnique Montréal*, working closely with **[Prof. Jean Pierre David](https://www.polymtl.ca/expertises/en/david-jean-pierre)** (Full Professor, Department of Electrical Engineering).  
-
-During this internship, I independently developed the core design methodology, hardware implementation framework, and experimental results that were later published **without my knowledge, consent, or authorship** in the following paper:
-
-> **Scalable Low-Complexity Implementation of Constant Matrix Multiplication Circuits**  
-> *Aymen-Alaeddine Zeghaida, Dinesh Daultani, J.-M. Pierre Langlois, Jean Pierre David*  
-> *2024 IEEE 67th International Midwest Symposium on Circuits and Systems (MWSCAS), pp. 357–361, IEEE, Aug. 11, 2024.*
-
-The publication above reproduces substantial portions of my original 2023 internship work, including the algorithmic concept, hardware architecture, and implementation results.  
-I was **not informed, consulted, or acknowledged** prior to its submission or publication.
-
-This repository serves to **document and preserve the original research records**, including design notes, synthesis scripts, and implementation data, created during my 2023 internship at Polytechnique Montréal. 
-
 # Matrix-Multiplication-Optimization-for-LUT-Usage-on-FPGA
 
 The Methodology section offers an in-depth exposition of the principles and design strategies pertaining to all the algorithms and functionalities implemented. The Results and Discussion section elucidates the analysis and discourse on the outcomes of the comparative experiments. The Explanation for Uploaded Files section provides insights on how to comprehend and utilize the files uploaded.
@@ -292,5 +277,21 @@ This file is a Vivado project that includes all the generated Verilog design fil
 - `matmul_generate.sv` file implements the same design as `matmul_hardcoded.sv`, with the only difference being that the product is achieved through a generate loop. Compared to `matmul_hardcoded.sv`, it is more concise, but it is not sufficient to be considered a standalone Baseline matrix multiplication design.
 - `matrix_mult_baseline_3x3.v` defines a module named `matrix_mult`, which performs the multiplication of a vector with a hardcoded matrix, utilizing shift-and-add methods for optimization. The inclusion of "3x3" in the name is due to the test case matrix size being 3x3. However, in practice, it can vary based on the dimensions of the matrices used.
 -  `matrix_multiplier_93.sv` file implements the Verilog design of the optimized matrix multiplication algorithm, which obtains the product of a matrix and a vector through shifting and addition operations. The inclusion of "93" in the name is due to the test case where the MEM array is used up to MEM[93]. This value may vary depending on the specific matrix being used.
+
+
+# Statement on Research Misappropriation
+
+Between **February and June 2023**, I conducted research as a **Research Intern** at *Polytechnique Montréal*, working closely with **[Prof. Jean Pierre David](https://www.polymtl.ca/expertises/en/david-jean-pierre)** (Full Professor, Department of Electrical Engineering).  
+
+During this internship, I independently developed the core design methodology, hardware implementation framework, and experimental results that were later published **without my knowledge, consent, or authorship** in the following paper:
+
+> **Scalable Low-Complexity Implementation of Constant Matrix Multiplication Circuits**  
+> *Aymen-Alaeddine Zeghaida, Dinesh Daultani, J.-M. Pierre Langlois, Jean Pierre David*  
+> *2024 IEEE 67th International Midwest Symposium on Circuits and Systems (MWSCAS), pp. 357–361, IEEE, Aug. 11, 2024.*
+
+The publication above reproduces substantial portions of my original 2023 internship work, including the algorithmic concept, hardware architecture, and implementation results.  
+I was **not informed, consulted, or acknowledged** prior to its submission or publication.
+
+This repository serves to **document and preserve the original research records**, including design notes, synthesis scripts, and implementation data, created during my 2023 internship at Polytechnique Montréal. 
 
 To evaluate the resource consumption of different Verilog designs for matrix multiplication algorithms, one can create a new project, add the corresponding design files, and perform synthesis by clicking on the synthesis button. If you wish to compare the resource consumption for different input vector bit widths, you only need to modify the input vector bit width value before each synthesis.
